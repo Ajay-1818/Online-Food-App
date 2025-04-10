@@ -12,7 +12,7 @@ class Order {
     public void removeItem(String itemName) throws ItemNotFoundException {
         boolean removed = orderedItems.removeIf(item -> item.getName().equalsIgnoreCase(itemName));
         if (!removed) {
-            throw new ItemNotFoundException("Item '" + itemName + "' not found in your order.");
+            throw new ItemNotFoundException("Item '" + itemName + "' not Found in your order.");
         }
     }
     public double calculateTotal() {

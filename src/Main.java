@@ -128,7 +128,7 @@ public class Main {
 
         menu.add(new MenuItem(" ", 5.99, Category.Starters));
 
-        menu.add(new MenuItem("Burger", 8.99, Category.Meals));
+        menu.add(new MenuItem("burger", 8.99, Category.Meals));
 
         menu.add(new MenuItem("Ice Cream", 3.49, Category.Desserts));
 
